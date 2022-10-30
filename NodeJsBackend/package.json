@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Just a demo project for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xprojects/ToDo.git"
+  },
+  "author": "Nick Tsaruk (@xprojects)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xprojects/ToDo/issues"
+  },
+  "homepage": "https://github.com/xprojects/ToDo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
+  }
+}
